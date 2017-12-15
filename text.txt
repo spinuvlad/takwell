@@ -1,0 +1,20 @@
+HTML
+<b> & <strong>
+<i> & <em>
+<small> - micsoreaza fontul in text
+<mark> - coloreaza in  galben background-ul textului. culoarea poate fi schimbata in css
+<del> & <strike>- afiseaza textul taiat pe mijloc
+<ins> - text subliniat
+<sub> - text mic la marginea de jos
+<sup> - text mic la marginea de sus
+
+CSS
+text-align: center | left | right | justify | auto - default | start | end |inherit
+font-weight: bold | normal
+font-style: italic | oblique | normal | inherit
+font-family: название шрифта | serif | sans-serif | cursive | fantasy | monospace | inherit
+font: [font-style|font-variant|font-weight] font-size [/line-height] font-family
+font: italic 16px/20px Arial
+line-height: px | % | множитель | normal | inherit - interval dintre randuri
+text-indent: px | % - spatiului primului rand
+vertical-align: px | % | baseline| bottom| top| middle| sub| super| text-bottom| text-top

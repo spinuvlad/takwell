@@ -1,0 +1,124 @@
+parinte{
+	display: flex;  // copii devin: display: inline-block; si se adapteaza dupa inaltimea parintelui
+	}
+---------------------------------------------- flex-direction
+parinte{
+	display: flex;
+	flex-direction: row; 					 //copiii(inline-block) - verticala 
+	flex-direction: row-reverse;	 //copiii(inline-block) - verticala - float: right; - reverse
+	flex-dicertion: column;				 //copiii(block) - orizontala 
+	flex-direction: column-reverse;//copiii(block) - orizontala - bottom - reverse
+}
+----------------------------------------------- justify-content
+parinte{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;			
+	justify-content: flex-start;		//(default)
+	justify-content: center;				
+	justify-content: space-between; 
+	justify-content: space-around;	
+	}
+	-------------- copiii in partea stanga: ordinea coada - cap:
+	parinte{
+	display: flex;
+	flex-direction: row-reverse; 
+	justify-content: flex-end;
+	}
+	------------------------------------------------ align-items
+
+	parinte{  //ar putea sa nu lucreze
+		display: flex;
+		align-items: stretch;         //(default) copiii(inline-block) se intind pe inaltimea(row), latimea (column) parintelui
+		align-items: flex-start;      //copii(inline-block) inatimea depinde de continutul copilului
+		align-items: flex-end; 				//copii(inline-block) - inaltimea(copil) - bottom-left
+		align-items: center;						//copii(inline-block) - inaltimea(copil) - center-left
+		align-items: baseline;					//asemanator cu "flex-start" + aranjarea dupa centrul primul element din copil
+	}
+	------------------------------------------------ align-content (parinte)
+	//lucreaza ca align-items doar atunci cand parintele are "height"
+	parinte{
+	align-content: flex-start;	// Ряды группируются в верхней части контейнера.
+	align-content: flex-end;	//Ряды группируются в нижней части контейнера.
+	align-content: center;	//Ряды группируются вертикально по центру контейнера.
+	align-content: space-between;
+	align-content: space-around;
+	align-content: stretch;
+	}
+
+copil{ 													
+	align-self: auto							//default
+	align-self: flex-start;      //copii(inline-block) inatimea depinde de continutul sau
+	align-self: flex-end; 				//copii(inline-block) - inaltimea(copil) - bottom-left
+	align-self: center;						//copii(inline-block) - inaltimea(copil) - center-left
+	align-self: baseline;					//asemanator cu "flex-start" + aranjarea dupa centrul primul element din copil
+}
+-------------------------------------------------- flex-wrap
+parinte{
+	flex-wrap: nowrap;						//default
+	flex-wrap: wrap; 							//copiii nu ies din parinte ci trec din rand nou
+	flex-wrap: wrap-reverse;      //coada - cap nu ies din parinte
+}
+-------------------------------------------------- copil
+DEFAULT:
+flex-grow: 0		// 1 - ocupa tot spatiul liber, imparte spatiul neocupat
+flex-shrink: 1	// 0 - nu ceredeaza 
+flex-basis: auto	//min-width; auto - dupa content
+flex: flex-grow flex-shrink flex-basis
+
+DEFAULT: flex: 0 1 auto;
+-------------------------------------------------- order
+copil{													//saemanator cu z-index, doar ca schimbarile se fac pe axa 2d
+	order: 0											//default
+	order: 1											//la sfarsit
+	order: -1											//la inceput
+}
+--------------------------------------------------- flex-flow
+flex-flow: flex-direction flex-wrap
+flex-flow: row wrap;
+------------------------ centrare absoluta a elementului "li"
+ul{
+	display: flex;
+	width: 100px;
+	height: 100px;
+}
+
+li{
+	margin: auto;
+}
+-----------
+ul{
+	display: flex;
+	width: 100px;
+	height: 100px;
+	justifi-content: center;
+}
+li{
+	align-self: center;
+}
+---------------------------------------------------- centare "li" pe orizontala fara flex
+ul{
+	widht: 100px;
+	height: 100px;
+	text-align: center;
+}
+li{
+	display: inline-block;
+}
+---------------------------------------------------- centare absoluta "li" fara flex
+ul{
+	widht: 100px;
+	height: 100px;
+	display: table-cell;
+	vertical-align: center;
+	text-align: center;
+}
+li{
+	display: inline-block;
+}
+
+
+nivelul 24: http://flexboxfroggy.com
+flex-flow: column-reverse wrap-reverse;
+justify-content: center;
+align-content: space-between;

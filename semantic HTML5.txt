@@ -1,0 +1,40 @@
+ELEMENTE SEMANTICE in HTML5(SEMANTIC ELEMENTS)
+nav 		- navigation: se imbraca meniul principal al saitului
+
+header 	- se foloseste in mai multe elemente principale din pagina. inceputul unui material
+
+main		- continutul saitului (corp)
+
+article - o noutate, un produs, fiecare article desemneaza un material important.  poate fi mai multe intr-o pagina
+
+aside   - material alaturat, ceea ce completeaza materialul principal.
+
+section - delimiteaza o sectiune logica dupa sens. delimiteaza diferite grupuri de linkuri:de ex.
+
+footer /p -> incheierea paginii. subsolul paginii.
+
+<figure> - grupeaza imagini sau mai multe elemnte grafice
+<figcaption> - descrierea imaginii
+<audio>
+<video>
+<canvas> - un chenar in care poti desena folosind un limbaj de programare (js)
+<svg> - inserezi cod imagini svg
+
+<div id="wrapper">
+			<header>
+				<nav>
+					<ul>...</ul>
+				</nav>
+			</header>
+			<aside>
+				...
+			</aside>
+			<main>
+				...
+			<section>
+				...
+			</main>
+			<footer>
+				...
+			</footer>
+		</div>

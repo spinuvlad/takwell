@@ -1,0 +1,16 @@
+text-shadow: сдвиг_по_x сдвиг_по_y размытие цвет | none;
+
+text-shadow: 5px 5px 3px black;
+text-shadow: 15px 15px red;  				 // Четкая тень
+text-shadow: 0px 0px 3px black;			 // Равномерная тень
+text-shadow: 3px 3px 3px red, -3px -3px 3px blue;  // Две тени сразу
+-------------
+box-shadow: inset сдвиг_по_x сдвиг_по_y размытие размер_тени цвет | none;
+
+box-shadow: 5px 5px 3px black;
+box-shadow: 2px 2px black;				// Четкая тень
+box-shadow: 0px 0px 3px black;		// Равномерная тень
+box-shadow: 0px 0px 0px 3px red;  // Размер тени
+box-shadow: 0px 0px 3px 3px black;// Размытие + размер тени
+box-shadow: 3px 3px 3px red, -3px -3px 3px blue; // Две тени сразу
+box-shadow: inset 0px 0px 6px black; // Внутренняя тень

@@ -1,0 +1,33 @@
+li:nth-child(7n) - fiecare al 7-lea element
+li:nth-child(7n-1) - fiecare element care se afla inainte de al 7-lea
+p:nth-child(n+2)   - incepand cu al 2-lea - toate celelalte
+p:nth-child(odd) - incepand cu primul peste unu (numere impare)
+p:nth-child(even) - incepand cu al 2-lea peste unu (numere pare)
+
+section:not(:last-child) - toate section, in afara de ultimul
+li:not(:nth-child(3n))   - toate "li" in afara de fiecare a 3-a
+
+li:nth-last-child(1)  //ultimul "li", analog cu last-child
+li:nth-last-child(2)  //penultimul "li"
+li:nth-last-of-type(1)
+
+h1:only-child     //toti "h1" in care este singur
+h1:only-of-type   //singur de tipul sau
+
+p:first-child  - primul "p" din parinte
+p:last-child   - ultimul "p" din parinte
+
+h2:first-of-type - primul copil de tip "h2" din parinte
+h2:last-of-type
+h2:nth-of-type()
+<div>
+	<h1>   
+	<h2>
+	<h2>
+	<p>     p:nth-child(4) sau p:nth-of-type(1)
+	<p>
+	<h3>
+	<p>
+	<p>     p:nth-child(8) sau p:nth-of-type(4)
+	<p>
+</div>

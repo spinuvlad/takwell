@@ -1,0 +1,68 @@
+background-color: green; 
+background-image: url("image.png");
+----------------------------------------
+background-repeat:
+	repeat;
+	no-repeat;			//артинка не будет повторятьс
+	repeat-x;				//будет повторяться по оси X (то есть по горизонтали)
+	repeat-y;				//картинка будет повторяться по оси Y (по вертикали)
+----------------------------------------
+background-position:   (Данное свойство имеет два значения, которые 													пишутся через пробел: сдвиг фона по 																	горизонтали и сдвиг фона по вертикали. 																Собственно сдвиг можно задавать ключевыми 				 X		Y							словами, а можно пикселями или процентами.)
+	right bottom;
+	left bottom;
+	center top;
+	center bottom;
+	right center;
+	center center;
+background-position: 100px 30px;
+background-position: 90% 30px;
+background-position: 90% center;
+-----------------------------------------
+background-size: 100%; | 100% 100%;  /* X Y */
+-----------------------------------------
+background-attachment: (Свойство background-attachment задает то,														 будет ли прокручиваться фон месте с текстом (значение scroll, по умолчанию) или оставаться	на месте (значение fixed). )
+	scroll;  //fonul se deruleaza impreuna cu continut
+	fixed;	 //fonul ramane pe loc in timp ce continutul poate fi derulat
+------------------------------------------
+background-origin: 
+		padding-box;  // Фоновая картинка не будет залезать под границу.
+		border-box;		// Фоновая картинка залезет под границу.
+		content-box;  // Фоновая картинка будет только над содержимым.
+Это свойство не работает, когда background-attachment: fixed;
+-------------------------------------------
+
+-------------------------------------------
+background-clip: padding-box | border-box | content-box;
+дает как фон или фоновая картинка будет размещаться относительно элемента
+-------------------------------------------
+FILTRE!!!!!!!!!!!!!!!!!!!!!
+http://www.w3schools.com/cssref/css3_pr_filter.asp
+
+background-blend-mode:
+http://www.w3schools.com/cssref/pr_background-blend-mode.asp
+
+PRESCURTAT:
+background: 
+    background-color background-image background-repeat background-attachment 
+    background-position / background-size background-origin background-clip;
+    
+background: green url("image.png") repeat-x left bottom;
+
+2 background:
+body
+	background: url("http://fon1.jpg"), url("http://fon2.jpg")
+	background-repeat: repeat-y
+	background-position: top left, top right
+
+VALABIL DOAR PT <img> si <video>:
+object-fit: fill | contain | cover | none
+
+fill - Элемент масштабируется, чтобы соответствовать заданным размерам, при этом пропорции игнорируются.
+
+contain - Элемент масштабируется, чтобы целиком уместиться в заданные размеры с соблюдением пропорций.
+
+cover - Элемент увеличивается или уменьшается, чтобы целиком заполнить заданную область с сохранением пропорций.
+
+none - Сохраняются исходные пропорции элемента, установленные значения ширины или высоты не влияют на содержимое.
+
+http://htmlbook.ru/css/-o-object-fit

@@ -1,0 +1,28 @@
+FUNCTIONEAZA CU STAREA: ":hover" | ":focus" | ":active"
+transition-property:   // indica ceea ce se va schimba in timpul tranzitiei
+	background           // ceea ce se va schimba: background
+	width                // latimea
+	height
+	all                  // tot ce este indicat in "hover" va fi supus tranzitiei
+
+transition-duration: 2s | 1s | 0.5s | .5  //timpul in care are loc tranzitia
+
+transition-timing-function:   // indica viteza cu care are loc tranzitia
+	ease            //incet -> repede -> incet
+	ease-in         //incet -> repede
+	ease-out        //repede -> incet
+	ease-in-out     //inceput incet - sfarsit incet
+	linear          //constant
+	step-start      //aplica schimbarile imediat fara transition
+	step-end				//asteapta timpul indicat apoi aplica imediat fara transition
+	step(2, start)  //schimbarile se vor face in 2 pasi; start | end (termina mai tarziu ca start)
+	step-cubic-bezier(.88,-0.64,.25,.6)  //cubic-bezier.com
+
+transition-delay: 2s     // timp retinere inainte de tranzitie
+-----------------------------
+PRESCURAT:
+transition: background .5s ease 2s //ordinea nu conteaza, conteaza timpul (primul parametru de 																			timp va fi: transition-duration)     
+PRESCURTAT COMPLEX:
+transition: widht 1s ease, background 4s ease 1s
+transition: all 1s ease     // pt "all" nu putem scrie parametri complecsi
+

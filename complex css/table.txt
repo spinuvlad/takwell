@@ -1,0 +1,16 @@
+empty-cells:
+			show;		(default) Фон и граница показываются у пустой ячейки.
+			hide;             Фон и граница не показываются у пустой ячейки.
+Если задано свойство border-collapse: collapse; - empty-cells работать не будет.
+
+border-collapse:        http://theory.phphtml.net/css/border-collapse.html
+			collapse; 				Двойные границы будут выглядеть как одна. перестанет работать 									свойство border-spacing и атрибут cellspacing. 
+			separate; 				Каждая ячейка таблицы будет иметь свою границу
+
+border-spacing:					http://theory.phphtml.net/css/border-spacing.html
+			10px | 10px 20px; задает отступ между ячейками td или ячейками th
+ Если задано свойство border-collapse в значении collapse - border-spacing работать не будет.
+
+table-layout:
+			auto;							Браузер может изменять размеры ячеек.
+			fixed;						Браузер не будет менять размеры ячеек.

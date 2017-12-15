@@ -1,0 +1,62 @@
+HTML
+<b> & <strong>
+<i> & <em>
+<small> - micsoreaza fontul in text
+<mark> - coloreaza in  galben background-ul textului. culoarea poate fi schimbata in css
+<del> & <strike>- afiseaza textul taiat pe mijloc
+<ins> - text subliniat
+<sub> - text mic la marginea de jos
+<sup> - text mic la marginea de sus
+
+CSS
+text-align: center | left | right | justify | auto - default | start | end |inherit
+font-weight: bold | normal (200, 400, 600, 900)
+font-style: italic | oblique | normal | inherit
+font-family: название шрифта | serif | sans-serif | cursive | fantasy | monospace | inherit
+font: [font-style|font-variant|font-weight] font-size [/line-height] font-family
+font: italic 12pt/40pt Arial, sans-serif
+line-height: px | % | множитель | normal | inherit - interval dintre randuri
+text-indent: px | % - spatiului primului rand
+vertical-align: px | % | baseline| bottom| top| middle| sub| super| text-bottom| text-top
+
+---------------------------- 
+text-decoration: none;						// fara linie
+text-decoration: underline;      // linie in partea de JOS a textului
+text-decoration: overline;       // linie in partea de SUS a textului
+text-decoration: line-through;   // text taiat
+
+text-decoration-line: none; | underline; | overline; | line-through;
+text-decoration-style: solid; | double; | dotted; | dashed; | wavy; - valuros
+text-decoration-color: color;
+-----------------------------
+IMPORTANT DE PASTRAT ORDINEA:
+a:link				 //link nevizitat
+a:visited			 //link vizitat
+a:hover   		 //навели курсор мышки
+a:active			 //in momentul cand faci click pe element
+-----------------------------
+
+PERSONALIZARE "UNDERLINE":
+a:link {
+color: red;
+text-decoration: none;
+border-bottom: 1px solid blue;
+}
+a:hover {
+border-bottom-color: green;
+}
+-----
+a {
+  color: #258;
+  text-decoration: underline;
+}
+span {
+  color: #d43;
+  text-decoration: none;
+}
+
+<a href="#">
+  <span>Text</span>
+</a>
+-------
+http://alistapart.com/article/customunderlines

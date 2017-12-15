@@ -1,0 +1,73 @@
+div{
+	animation-name: name_animation;
+	animation-duration: 4s;				  	// timpul de rulare a animatiei
+	
+	animation-timing-function:
+		ease            //incet -> repede -> incet
+		ease-in         //incet -> repede
+		ease-out        //repede -> incet
+		ease-in-out     //inceput incet - sfarsit incet
+		linear          //constant
+		step-start      //aplica schimbarile imediat fara transition
+		step-end				//asteapta timpul indicat apoi aplica imediat fara transition
+		step(2, start)  //schimbarile se vor face in 2 pasi; start | end (termina mai tarziu ca 	start)
+		step-cubic-bezier(.88,-0.64,.25,.6)  //cubic-bezier.com
+
+	animation-delay: 0s; | 1s; | 4s;  // timpul de retinere a animatiei
+	animation-iteration-count: 2; | infinite;    // de cate ori se repeta animatia
+	animation-direction: normal;	| alterate;    // indica directia de animare; "alterate" 																											intoarce animatia lent in starea initiala
+	animation-fill-mode: 
+		none; (default)     // animatie se intoarce la locul de unde a pornit
+		forwards; 					// elementul ramane la locul unde animatia a fost executata
+		backwards;					// directia: "from" -> initial -> "to" (lucreaza cu animation-delay)
+	
+	animation-play-state: running; | paused;  //indica sa ruleze sau nu animatia 
+}
+--------------------------------
+MAI MULTE ANIMATII UNA DUPA ALTA:
+animation-name: anime1, anime2, anime3;
+animation-duration: 4s, 1s, .5s;
+animation-iteration-count: infinite, infinite, infinite;
+--------------------------------
+PRESCURTAT:
+animation: <name> <duration> <timing-function> <delay> <iteration-count> <direction> <fill-mode>
+					// ordinea nu conteaza. conteaza doar ordinea: <duration> <delay>
+animation: anime 2s ease infinite alternate;
+
+MAI MULTE ANIMATII PRESCURTAT:
+animation: anime1 4s ease infinite, anime1 1s ease infinite, anime1 .5s ease infinite;
+
+-------------------------------- from to
+@keyframes name_animatoin{
+	from{												// de la
+		margin-left: 3px
+	}
+	to{													// pana la
+		margin-left: 200px;
+	}
+}
+------------------------------- % (patrat)
+@keyframes anim{
+	0%  {margin-left: 0; margin-top: 0;}
+	25% {margin-left: 300px; margin-top: 0;}
+	50% {margin-left: 300px; margin-top: 300px;}
+	75% {margin-left: 0; margin-top: 300px;}
+	100%{ margin-left: 0; margin-top: 0;}
+}
+---------------------------------
+ex.: animation-play-state, hover:
+
+#d1{
+	height: 50px;
+	border: 1px solid red;
+	animation: anime 2s ease infinite alternate;
+	animation-play-state: paused;
+}
+#d1:hover{
+	animation-play-state: running;
+}
+
+@keyframes anime{
+	from {width: 50px;}
+	to {widht: 400px;}
+}

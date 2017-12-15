@@ -1,0 +1,6 @@
+border-image: url(source) slice/width/outset repeat | inherit | none;
+border-image: url(путь к картинке) смещение/толщина/сдвиг повторение;
+
+Border-image
+Source: http://playcode.io/border_image
+Public:http://border_image.playcode.io

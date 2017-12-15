@@ -1,0 +1,36 @@
+PSEUDOCLASE:
+a:link | :visited | :hover | :active   // vezi "text and a:link.txt"
+:hover ----- poate fi aplicat si altor elemente nu doar "a:link"
+
+li:empty      // adresare catre "li" care nu detin nimic
+
+div:target		// playcode.io/target
+
+p:not(.test)  // toate "p" fara class="test"
+-------------------------------------------------------
+PSEUDOELEMENTE:
+p::first-line   	// prima linie (NU! rand) din paragraful "p"
+p::first-letter		// prima litera din fiecare paragraf "p"
+p::selection      // "p" in momentul cand este selectat
+---------------------------------
+li::after{content: ']';}   // dupa element; "content" este IMPORTANT
+li::before{content:'[';} 	 // inainte de element
+li:hover::after, li:hover::before{content: '!!!';}
+<ul>
+	<li>Text 1</li>
+	<li>Text 2</li>
+	<li>Text 3</li>
+</ul>
+VA AFISA:
+*[Text 1]
+*[Text 2]
+*[Text 2]
+---------------------------------
+css4: css4-selectors.com  --> selector test (vezi daca browserul este compatibil cu css4)
+p:not(.intro, blockquote)
+a:has(> img)   //fiecare element "a" care contine img
+p:matches(.alert, .error, .warn)  //toti "p" cu clasele respective
+
+a:any-link   // inlocuieste a:link si a:visited impreuna
+nav:local-link  //link-ul care duce la "home"
+

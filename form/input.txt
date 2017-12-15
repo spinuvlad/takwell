@@ -1,0 +1,37 @@
+<input type="text">         //обычное текстовое поле ввода.
+<input type="password">     //текстовое поле ввода для пароля(он отобразится звездочками.)
+<input type="text" autofocus>  //Атрибут autofocus задает автоматический фокус ввода 
+----------------------
+<input type="checkbox">     //Создает флажок чекбокс.
+<input type="checkbox" disabled>
+<input type="checkbox" checked>
+<input type="checkbox" disabled checked>
+----------------------
+<input type="radio">
+<input type="radio" name="test" checked value="1"> 
+<input type="radio" name="test" value="2">
+----------------------
+<input type="hidden">   //Создает скрытый инпут, который не будет виден на экране, но будет отправлять содержащиеся в атрибуте value данные на сервер.
+----------------------
+<input type="button" value="Knopka">  //Нажатие на эту кнопку не будет отправлять форму на сервер. Она может быть использована внутри ссылки или через JavaScript.
+----------------------
+<input type="submit" value="Knopka">  //Создает кнопку, которая будет отправлять данные на сервер. Текст кнопки зависит от браузера, его можно сменить с помощью value.
+----------------------
+<input type="reset" value="Zbros">  //Создает кнопку, которая очищает заполненную форму. Текст кнопки зависит от браузера, его можно сменить с помощью value.
+----------------------
+<input type="file">  //Создает кнопку выбора файла. Дизайн этой кнопки запрещено менять через CSS (однако есть хитрые способы). Если вам требуется такое поле в форме, то тег form должен иметь атрибут enctype в значении multipart/form-data.
+
+type="email"     //permite introducere doar de tip email
+type="number"    //introducere numar
+type="url"       //permite intrare doar http://
+
+ATRIBUTE:
+type 						 //Задает тип поля ввода.
+value						 //Значение по умолчанию в поле ввода.
+placeholder			 //Подсказка в поле ввода.
+name  					 //Имя поля ввода. Нужно для того, чтобы достать данные поля ввода в PHP.
+disabled   			 //Блокирует элемент формы (не только input, а практически любой).
+required				 //Camp obligatoriu pt indeplinire
+autofocus				 //задает автоматический фокус ввода
+autocomplete="on" | "off" // on | off pentru propuneri de completare din partea browserului
+<input type="text" readonly>   //interzice sa scrii in camp. doar citire     

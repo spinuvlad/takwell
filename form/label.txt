@@ -1,0 +1,10 @@
+<input type="checkbox" id="checkbox1">
+<label for="checkbox1">Я привязан к чекбоксу с id checkbox1.</label>
+
+<label><input type="checkbox"> метка</label>
+
+<input type="text" id="input1" value="Какой-то текст">
+<label for="input1">Я привязан к инпуту с id input1.</label>
+
+
+<input type="checkbox" accesskey="z">    //Shift + Alt + z 

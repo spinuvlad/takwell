@@ -1,0 +1,22 @@
+ul li{
+  float: left;
+}
+ul li a:link{
+  text-decoration: none;
+}
+#menu{
+  background: #FC9D00;
+}
+#menu a:link{
+  padding: 20px;
+  display: block;
+  color: #fff;
+}
+----------
+CENTER MENU:
+footer{
+  text-align: center;
+}
+footer ul{
+  display: inline-block;
+}

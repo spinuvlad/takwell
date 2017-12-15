@@ -1,0 +1,16 @@
+input:checked+label 				//pt stilizare checkbox
+input:indeterminate+label   //indiferent de starea inputului (checked sau nu). lucreaza cu js
+
+input:disabled
+input:enabled
+input::placeholder
+
+input:required          //obligatoriu spre indeplinire
+input:optional          //neobligatoriu
+input:valid             //ceea ce e completat corect
+input:invalid           //ceea ce e completat incorect
+
+input:valid:required    //in acelasi timp va funtiona si required si valid
+input:read-only
+input:read-write
+---------------------------

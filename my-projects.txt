@@ -1,0 +1,213 @@
+media querie site3
+Source:		playcode.io/media_querie_site3
+Public:		media_querie_site3.playcode.io
+
+media querie menu header
+Source:		playcode.io/media_querie_header
+Public:		media_querie_header.playcode.io
+
+media querie float site2
+Source:		playcode.io/media_float_site2
+Public:		media_float_site2.playcode.io
+
+media querie flex site1
+Source:		playcode.io/madia_flex_site1
+Public:		madia_flex_site1.playcode.io
+
+media querie flex block p
+Source:		playcode.io/media_flex_block_p
+Public:		media_flex_block_p.playcode.io
+
+media querie flex block
+Source:		playcode.io/media_flex_block
+Public:		media_flex_block.playcode.io
+
+media querie text
+Source:		playcode.io/media_query_text
+Public:		media_query_text.playcode.io
+
+media querie adaptive 
+Source:		playcode.io/media_query
+Public:		media_query.playcode.io
+
+flex div
+Source:		playcode.io/flex_div
+Public:		flex_div.playcode.io
+
+flex menu
+Source:		playcode.io/flex_menu
+Public:		flex_menu.playcode.io
+
+flex all exemple
+Source:		playcode.io/flex
+Public:		flex.playcode.io
+
+sass info exemple 
+Source:		playcode.io/sass_css
+
+less info exemple
+Source:		playcode.io/less_css
+
+transform horizontal slider
+Source:		playcode.io/transform_horizontal_slider
+Public:		transform_horizontal_slider.playcode.io
+
+transform3D animation slideshow vertical slider 
+Source:		playcode.io/transform_slideshow
+Public:		transform_slideshow.playcode.io
+
+transform3D animation cube cub kub
+Source:		playcode.io/transforme3d_cube
+Public:		transforme3d_cube.playcode.io
+
+transform stickers
+Source:		playcode.io/transform_stickers
+Public:		transform_stickers.playcode.io
+
+transform satelit
+Source:		playcode.io/transform_satelit
+Public:		transform_satelit.playcode.io
+
+transform menu
+Source:		playcode.io/transform_menu
+Public:		transform_menu.playcode.io
+
+transform transition animation square
+Source:		playcode.io/transition_square
+Public:		transition_square.playcode.io
+
+transform aside
+Source:		playcode.io/transform_aside
+Public:		transform_aside.playcode.io
+
+transform rotate scale
+Source:		playcode.io/transform_rotate_scale
+Public:		transform_rotate_scale.playcode.io
+
+transform img scale
+Source:		playcode.io/transform_img_scale
+Public:		transform_img_scale.playcode.io
+
+animation ball
+Source:		playcode.io/animation_ball
+Public:		animation_ball.playcode.io
+
+animation
+Source:		playcode.io/animation
+Public:		animation.playcode.io
+
+transition menu
+Source:		playcode.io/transition_menu
+Public:		transition_menu.playcode.io
+
+transition scissor box-shadow
+Source:		playcode.io/transition_shadow
+Public:		transition_shadow.playcode.io
+
+transition scissor position
+Source:		playcode.io/transition_scissor
+Public:		transition_scissor.playcode.io
+
+transition linear ease steps
+Source:		playcode.io/transition
+Public:		transition.playcode.io
+
+counter increment reset after before
+Source:		playcode.io/counter_before
+Public:		counter_before.playcode.io
+
+selector hover nth-child
+Source:		playcode.io/hover_selector
+Public:		hover_selector.playcode.io
+
+target link scroll carousel
+Source:  playcode.io/target
+Public:  target.playcode.io
+
+form radio css
+Source:		playcode.io/form_radio_css
+Public:		form_radio_css.playcode.io
+
+form checkbox table css
+Source:		playcode.io/checkbox_table_css
+Public:		checkbox_table_css.playcode.io
+
+form checkbox css
+Source:		playcode.io/form_checkbox_css
+Public:		form_checkbox_css.playcode.io
+
+form select css
+Source:		playcode.io/form_select_css
+Public:		form_select_css.playcode.io
+
+form input css label upload file
+Source:		playcode.io/input1_css
+Public:		input1_css.playcode.io
+
+form input label checkbox radio select option file fieldset legend
+Source:  playcode.io/form
+Public:  form.playcode.io
+
+Border-image
+Source: 	playcode.io/border_image
+Public:		border_image.playcode.io
+
+Linear radial gradient repeating effects
+Source: 	playcode.io/linear_radial_gradient
+Public:		linear_radial_gradient.playcode.io
+
+Text white-space / pre / pre-wrap / pre-line / nowrap
+Source: 	playcode.io/text_pre_wrap
+Public:		text_pre_wrap.playcode.io
+
+Box-Shadow
+Source: 	playcode.io/box_shadow
+Public:		box_shadow.playcode.io
+
+Text-Shadow:
+Source: 	playcode.io/text_shadow
+Public:		text_shadow.playcode.io
+
+Background(automobil) + 2 container opacity
+Source:		playcode.io/bg_2opacity_container
+Public:		bg_2opacity_container.playcode.io
+
+Background-clip: padding-box | content-box | border-box
+Source:		playcode.io/background_clip
+Public:		background_clip.playcode.io
+
+Background filter
+Source:		playcode.io/filter
+Public:		filter.playcode.io
+
+Figuri geometrice css
+https://habrahabr.ru/post/126207/
+----------------------------------
+Любые виды ремонтных работ
+Source:		playcode.io/remont_site
+Public:		remont_site.playcode.io
+
+Продажа мёда - v.3(full)
+Source:		playcode.io/honey_full
+Public:		honey_full.playcode.io
+
+Продажа мёда - v.2
+Source:		playcode.io/honey2
+Public:		honey2.playcode.io
+
+Продажа мёда - v.1
+Source:		playcode.io/honey1
+Public:		honey1.playcode.io
+
+float 3 coloane:
+Source:		playcode.io/float3coloane
+Public:		float3coloane.playcode.io
+
+smile position:
+Source:		playcode.io/smile
+Public:		smile.playcode.io
+
+----------------------------
+Calendar CSS
+Source:		playcode.io/calendar_css
+Public:		calendar_css.playcode.io

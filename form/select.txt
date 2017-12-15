@@ -1,0 +1,64 @@
+Ширина выпадающего списка равна ширине самого большого элемента (если она не будет явно указана с помощью CSS свойства "width").
+
+<select>
+	<option>Москва</option>
+	<option selected>Минск</option>
+	<option>Киев</option>
+	<option>Лондон</option>
+</select>
+
+Обратите внимание на то, что имя селекта, заданное в атрибуте name, должно быть с квадратными скобками в конце. Это нужно для того, чтобы в PHP приходили все выбранные значения (иначе придет только одно - последнее).
+<select multiple name="city[]">
+	<option>Москва - столица России</option>
+	<option>Минск</option>
+	<option>Киев</option>
+	<option>Лондон</option>
+</select>
+
+В мультиселекте по умолчанию может быть выбрано более, чем одно значение:
+<select multiple name="city[]">
+	<option>Москва - столица России</option>
+	<option selected>Минск</option>
+	<option>Киев</option>
+	<option selected>Лондон</option>
+</select>
+
+--------------------------------------- <optgroup>
+Тег optgroup группирует пункты option выпадающего списка select
+<select>
+	<optgroup label="Города России">
+		<option>Москва</option>
+		<option>Смоленск</option>
+	</optgroup>
+	<optgroup label="Города Беларуси">
+		<option>Минск</option>
+		<option>Витебск</option>
+	</optgroup>
+</select>
+--------------------------------------- <datalist>
+Тег datalist создает автозаполнение для полей ввода input в HTML форме.
+<input type="text" list="country">
+<datalist id="country">
+	<option>Беларусь</option>
+	<option>Бельгия</option>
+	<option>Болгария</option>
+</datalist>
+
+<input type="text" list="country-value">
+<datalist id="country-value">
+	<option value="Беларусь">Беларусь - страна озер и картошки</option>
+	<option value="Бельгия">Бельгия - страна, в которой живут бельгийцы</option>
+	<option value="Болгария">Болгария - страна для отдыха</option>
+</datalist>
+
+<form action="">
+	<input type="text" list="country" autocomplete="on">
+	<datalist id="country">
+		<option>Chisinau</option>
+		<option>Cehia</option>
+		<option>Copenhaga</option>
+	</datalist>
+	<input type="submit">
+</form>
+
+ex.: http://theory.phphtml.net/html/datalist.html

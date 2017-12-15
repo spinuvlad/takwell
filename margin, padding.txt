@@ -1,0 +1,21 @@
+margin: 10px 20px 30px 40px; 	(top right bottom left)
+margin-top:
+margin-right:
+margin-bottom:
+margin-left:
+
+margin: 10px 30px;					 (top+bottom left+right)
+margin: 10px 20px 30px;			 (top left+right bottom)
+margin: 20px auto;           (auto - left+right - centrare)
+margin: 30px auto 10px;
+--------------------------------
+PADDING la fel ca margin, cu exceptie "auto"
+--------------------------------
+Свойство box-sizing: http://theory.phphtml.net/css/box-sizing.html
+По умолчанию добавление padding расширяет элемент: если мы задали ширину width 100px и padding-left в 20px, то реальная ширина элемента будет 120px. А если мы зададим еще и border-left в 10px, то реальная ширина элемента станет 130px. То есть padding и border расширяют блок (и по ширине, и по высоте). Это поведение можно поменять с помощью box-sizing. 
+
+box-sizing:
+	content-box;        //default
+	padding-box;				//Свойство padding не расширяет блок, а border - 											 расширяет.
+	border-box;         //Ни padding, ни border не расширяют блок.
+	inherit; 						//Наследует значение родителя.

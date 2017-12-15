@@ -1,0 +1,4 @@
+mozilla:
+Ctrl + Shift + M (versiunea mobila)
+
+Ctrl + U   // sursa codului

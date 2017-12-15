@@ -1,0 +1,25 @@
+transform:
+	translate3D(-100px, 0px, -100px);  (X, Y, Z); axa Z - priveste la utilizator
+														coeficinetul negativ "Z" are efect asemanator cu "z-index: -1;"
+	translate3D(100px, 0px, 100px);   Z - in fata
+-----------------
+transform-style:       // in ce spatiu sa transforme elemntele copil; SE INDICA PARINTELUI
+	preserve-3d; 					// in spatiu 3d
+	flat;									// (DEFAULT)
+
+perspective: 300px      // indica cat de in fata sa se prezinte elementul. 
+													 cu cat coeficientul e mai mic, cu atat efectul e mai mare
+													 se indica elementului PARINTE
+
+perspective-origin: top; | bottom; | left; | right; | center; (default) 
+										indica din care parte a ecranului privesc obiectul
+-----------------
+backface-visibility:   // indica daca vedem sau nu continutul elementul in partea din urma
+	visible;             // (default) - se vede'
+	hidden;							 // nu se vede partea din spate
+-----------------
+transform-origin:      // axa pe care se face transformatia
+	0px 0px 100px;			 // X Y Z=100px; in fata
+-----------------
+
+	

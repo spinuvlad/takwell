@@ -1,0 +1,45 @@
+transtorm      | default | :hover |
+
+transform:
+	rotate(30deg);    // ROTATIE la dreapta de 30 grade
+	rotate(-30deg);   // rotatie la stanga
+
+	scaleX(3);				// obiectul se LARGESTE pe axa X de 3 ori: width*3
+	scaleY(2);				// obiectul se largeste pe axa Y de 2 ori: height*2
+	scale(3, 2);			// transformare pe axa X*3 si Y*2
+	scale(0.5);				// x*0.5 si Y*0.5
+	scaleX(-1);				// continutul va fi afisat OGLINDIT
+
+	skewX(45deg);			// INCLINAREA obiectului pe asa X cu 45 grade
+	skewY(45deg);
+	skew(60deg, 45deg); (X, Y)
+	skew(30deg) = skewX(30deg)
+
+	translateX(10px);  // deplasarea elementului cu 10px spre dreapta, X
+	translateY(10px);  // Y - in jos
+	translateX(-10px); // X - stanga
+	translateY(10px);  // Y - sus
+	translate(-20%, 40%); // X-stanga, Y - jos
+
+	matrix(2, 0, 1, 1, 0, 0); matrix(scaleX, skewX, skewY, scaleY, translateX, translateY)
+
+SCHIMBA LOCUL DE TRANSFORMARE DE PE OBIECT (default: center)
+transform-origin: <x> <y> <z>; 
+		<x> : px | % | left | center | right
+		<y> : px | % | top  | center | bottom
+		<y> : px
+
+transform: rotate(45deg);
+transform-origin: left top;  // elementul se va schimba din partea stanga sus: left-X top-Y
+
+transform: scale(2);
+transform-origin: left top;
+
+GRESIT:
+transform: rotate (45deg);
+transform: translate(50px); !!! // va fi aplicat doar ultima proprietate "transform"
+
+CORECT:
+transform: rotate(45deg) translate(50px);
+
+

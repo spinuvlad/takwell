@@ -1,0 +1,31 @@
+float: left; right;
+	elementele din jur vor imprejmui elementul "float"
+
+clear: both; - elementele care sunt mai inalte decat elementul flotat se vor muta mai jos decat elementul flotat
+clear: left;
+clear: right;
+-----------------------------
+meniu folosind float: http://codepen.io/spinuvlad/pen/KNOweo
+-----------------------------
+#menu:before,
+#menu:after{
+  content: " ";
+  display: table;
+}
+#menu:after{
+  clear:both;
+} 
+
+IMPORTANT!!!!!!!!!!!!!!
+height-ul site-ului se adapteaza dupa contentul flotat
+float COLOANE:
+aside{
+width: 150px;
+float: left;
+}
+main{
+margin: 0 190px;
+}
+.clearfix !!!! important
+exemplu:
+http://playcode.io/float3coloane

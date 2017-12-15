@@ -1,0 +1,67 @@
+letter-spacing: 		Устанавливает интервал между буквами
+			3pt | 0pt | -1pt | normal | 2px	
+
+word-spacing: 			устанавливает интервал между словами
+			3pt | 0pt | -1pt | normal | 2px
+
+font-variant:
+			small-caps; 	Делает маленькие буквы заглавными маленького размера.
+			normal;				Отменяет действие small-caps.
+
+text-transform:
+			capitalize; 	Первый символ каждого слова в предложении будет заглавным.
+			lowercase;		Все символы текста переводятся в нижний регистр.
+			uppercase;		Все символы текста переводятся в верхний регистр.
+			none;
+
+text-align-last: 
+			start | end | center | left | right | justify | inherit;
+Свойство text-align-last устанавливает выравнивание последней строки текста: по левому краю, по правому, по центру, по левому и правому краям одновременно.
+
+white-space:
+			nowrap;				Запрещает тексту переносится на другую строку
+			pre;					текст показывается так, как был набран в редакторе HTML кода.
+			pre-wrap;	
+			pre-line;
+			normal;	
+
+text-overflow:
+	clip;					      	//(default)
+	ellipsis;							//"..." cand nu se incadreaza textul in bloc. OBLIGATORIU: overflow: hidden;
+------------------------------------------------------
+columns: ширина количество;  //imparte textul in coloane
+columns: auto auto; (default)
+columns: 150px auto;
+columns: 150px 3; 				// 3 cloane cate 150px fiecare
+column-gap: 50px;   // 50px intre coloane;
+column-rule: 1px solid red;  // despartitor intre coloane (proprietati de la "border")
+column-span: 1 | all | initial (default): 
+http://theory.phphtml.net/css/column-span.html
+------------------------------------------------------
+word-break:
+			break-all; 		Заставляет длинные слова переносится на новую строку, если это слово не помещается в контейнер.
+			keep-all;			Для переноса иероглифов
+			normal; (default)
+
+word-wrap: break-word;
+
+hyphens:    (<p lang="ru">)
+			auto;					Расставляет знаки переноса там, где это необходимо.
+			manual;   Добавляет переносы только в тех местах, где добавлен тег wbr или спецсимвол &shy; и только при необходимости. Такие переносы называются мягкими.
+			none;
+
+user-select:
+			text;		Пользователь может выделить текст.
+			none;		Пользователь не может выделить текст и любые вложенные элемен
+			all;		Двойной щелчок по элементу выделяет весь текст внутри его родителя.
+
+tab-size: 8; -задает количество пробелов, которому будет соответствовать клавиша tab. 
+Работает только если задано свойство white-space в значении pre или pre-wrap, а также для тега pre.
+
+<pre> </pre>				http://theory.phphtml.net/html/pre.html
+Тег pre задает вывод текста в том виде, как он набран в документе: со всеми отступами (табуляцией), пробелами и переносами строк.
+
+Тег wbr указывает место, где браузер может сделать перенос строки в случае необходимости
+<wbr> and &shy;			http://theory.phphtml.net/html/wbr.html
+это супер<wbr>пупер<wbr>длинный<wbr>предлинный текст
+это супер&shy;пупер&shy;длинный&shy;предлинный текст

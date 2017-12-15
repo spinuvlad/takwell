@@ -1,0 +1,40 @@
+border-style:
+	solid; 					- сплошная линия
+	dotted; 				- граница в виде точек
+	dashed; 				- граница в виде черточек
+	ridge; 					- выпуклая граница
+	double; 				- двойная граница
+	groove; 				- вогнутая граница
+	inset; outset;  - рамка
+	none; 					- отменяет границу
+
+border-left, -right, -top, -bottom;
+
+border-color: red; transparent; 
+
+border-radius: 10px 20px 20px 10px; (top-left top-right, bottom-right, bottom-left)
+border-radius: 10px 20px 30px; (top-left top-right+bottom-left bottom-right)
+
+PRESCURTAT:
+border: 3px dotted red; (border: border-width border-style border-color;)
+------------------------------------
+border-image: url(source) slice/width/outset repeat | inherit | none;
+border-image: url(путь к картинке) смещение/толщина/сдвиг повторение;
+------------------------------------
+box-sizing: border-box  //border-ul copilului se incadreaza in elementul parinte
+
+OUTLINE:
+В отличие от border граница через outline не расширяет элемент: если у элемента задана ширина width в 200px, то при наличии border толщиной в 1px реальная ширина элемента будет 202px (по 1px границы с каждой стороны). Если же задать границу через outline - то реальная ширина элемента будет по-прежнему 200px. Визуально ширина будет 202px, но все прочие элементы будут вести себя так, как будто границы нет (она даже может налезть на другие элементы) и ширина элемента 200px. 
+
+outline: 1px solid red; 
+
+Свойство outline-offset: http://theory.phphtml.net/css/outline-offset.html
+	div{
+	outline-offset: 10px;
+	outline-width: 1px;
+	outline-style: solid;
+	outline-color: black;
+	background-color: #E4F1ED;
+	width: 300px;
+	height: 100px;
+}

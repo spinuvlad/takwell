@@ -1,0 +1,13 @@
+display: block | inline | inline-block | list-item | none | table | table-cell | inline-table | table-caption | table-column | table-row | table-column-group | table-footer-group | table-header-group | table-row-group | run-in | flex | inline-flex;
+
+http://theory.phphtml.net/css/display.html
+---------------------------------
+
+visibility: 
+		visible; (default) 
+		
+		hidden;  
+		// задает невидимость элементу. При этом все остальные элементы будут вести себя так, будто элемент никуда не пропадал.
+		
+		collapse; 
+		// Если это значение применяется не к строкам или колонкам таблицы, то результат его использования будет таким же, как hidden. В случае использования collapse для содержимого ячеек таблиц, то они реагируют, словно к ним было добавлено display: none. Иными словами, заданные строки и колонки убираются, а таблица перестраивается по новой.

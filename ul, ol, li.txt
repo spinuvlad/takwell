@@ -1,0 +1,47 @@
+<ul>
+	<li>punct 1</li>
+	<li>punct 2</li>
+	<li>punct 3</li>
+</ul>
+ul{
+	list-style-type: circle;  //cerc gol
+	list-style-type: disc;		//cerc plin (default)
+	list-style-type: square;  //patrar plin
+	list-style-type: none;		//anuleaza
+	list-style-image: url("li.gif");
+
+	list-style-position: inside;  //"margin" la "li" de la punct
+	list-style-position: outside; //"margin" de la text, ignorand punctul
+}
+
+PRESCURTAT:
+list-style: list-style-type list-style-image list-style-position;
+list-style: none url("li.gif") inside; 
+--------------------------------
+<ol>
+	<li>punct 1</li>
+	<li>punct 2</li>
+	<li>punct 3</li>
+</ol>
+ol{
+	list-style-type: lower-roman;  //litere romane
+	list-style-type: lower-alpha;  //litere latine
+	alte proprietati:
+		http://theory.phphtml.net/css/list-style-type.html
+}
+
+stilizare completa a ol:
+ol{
+  counter-reset: myCounter;
+}
+li{
+  list-style-type: none;
+}
+li:before{
+  counter-increment: myCounter;
+  content:counter(myCounter)".";
+  color: red;
+  padding-right: 10px;
+}
+
+http://html5.by/blog/ol-numbers-css-counter-styling/

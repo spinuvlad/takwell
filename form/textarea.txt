@@ -1,0 +1,39 @@
+TEXTAREA - создает многострочное поле ввода для использования в HTML формах.
+<textarea>Какой-то текст.</textarea>
+<textarea placeholder="Я подсказка:)"></textarea>
+INF0: http://theory.phphtml.net/html/textarea.html
+
+CSS:
+textarea{
+	resize: both;   //Элемент растягивается в обе строны
+	width: 200px;
+	height: 200px;
+}
+
+textarea{
+	resize: horizontal;   //Элемент растягивается только по горизонтали
+	width: 200px;
+	height: 200px;
+}
+
+textarea{
+	resize: vertical;   //Элемент растягивается только по вертикали
+	width: 200px;
+	height: 200px;
+}
+
+textarea{
+	resize: none;   //Элемент не растягивается вообще
+	width: 200px;
+	height: 200px;
+}
+
+ограничить минимальную и максимальную ширину и высоту с помощью min-height, max-height, min-width, max-width:
+textarea{
+	resize: both;
+	border: 1px solid red;
+	min-height: 100px;
+	max-height: 300px;
+	min-width: 100px;
+	max-width: 300px;
+}

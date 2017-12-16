@@ -19,6 +19,7 @@ line-height: px | % | множитель | normal | inherit - interval dintre ra
 text-indent: px | % - spatiului primului rand
 vertical-align: px | % | baseline| bottom| top| middle| sub| super| text-bottom| text-top
 
+text-transform: uppercase | lowercase | capitalize
 ---------------------------- 
 text-decoration: none;						// fara linie
 text-decoration: underline;      // linie in partea de JOS a textului
@@ -34,6 +35,9 @@ a:link				 //link nevizitat
 a:visited			 //link vizitat
 a:hover   		 //навели курсор мышки
 a:active			 //in momentul cand faci click pe element
+
+a:first-child:link, a:first-child:visited
+!!!Daca nu se aplica stilurile din css incearca sa salvezi documentul html
 -----------------------------
 
 PERSONALIZARE "UNDERLINE":

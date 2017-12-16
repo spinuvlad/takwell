@@ -1,3 +1,5 @@
+background: green url("image.png") repeat-x left bottom;
+
 background-color: green; 
 background-image: url("image.png");
 ----------------------------------------
@@ -7,7 +9,7 @@ background-repeat:
 	repeat-x;				//будет повторяться по оси X (то есть по горизонтали)
 	repeat-y;				//картинка будет повторяться по оси Y (по вертикали)
 ----------------------------------------
-background-position:   (Данное свойство имеет два значения, которые 													пишутся через пробел: сдвиг фона по 																	горизонтали и сдвиг фона по вертикали. 																Собственно сдвиг можно задавать ключевыми 				 X		Y							словами, а можно пикселями или процентами.)
+background-position:   (Данное свойство имеет два значения, которые пишутся через пробел: сдвиг фона по горизонтали и сдвиг фона по вертикали. Собственно сдвиг можно задавать ключевыми X Y словами, а можно пикселями или процентами.)
 	right bottom;
 	left bottom;
 	center top;
@@ -20,7 +22,7 @@ background-position: 90% center;
 -----------------------------------------
 background-size: 100%; | 100% 100%;  /* X Y */
 -----------------------------------------
-background-attachment: (Свойство background-attachment задает то,														 будет ли прокручиваться фон месте с текстом (значение scroll, по умолчанию) или оставаться	на месте (значение fixed). )
+background-attachment: (Свойство background-attachment задает то,	будет ли прокручиваться фон месте с текстом (значение scroll, по умолчанию) или оставаться	на месте (значение fixed). )
 	scroll;  //fonul se deruleaza impreuna cu continut
 	fixed;	 //fonul ramane pe loc in timp ce continutul poate fi derulat
 ------------------------------------------

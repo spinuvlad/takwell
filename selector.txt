@@ -3,6 +3,10 @@ div p b
 
 p.test
 	я выберу все абзацы с классом test
+
+#test a:link.www, a:visited.www
+aleg toate lincurile cu clasa "www" din elementele "id="test""
+
 ------------------------------------
 p > i    // doar copiii de nivelul 1
 		<p>

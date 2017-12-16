@@ -16,6 +16,7 @@ h1:only-of-type   //singur de tipul sau
 
 p:first-child  - primul "p" din parinte
 p:last-child   - ultimul "p" din parinte
+a:first-child:link, a:first-child:visited
 
 h2:first-of-type - primul copil de tip "h2" din parinte
 h2:last-of-type

@@ -20,3 +20,33 @@ footer{
 footer ul{
   display: inline-block;
 }
+
+exemple:
+<ul>
+	<li><a href="">link1</a></li>
+	<li><a class="active" href="">link2</a></li>
+	<li><a href="">link3</a></li>
+	<li><a href="">link4</a></li>
+	<li><a href="">link5</a></li>
+</ul>
+
+ul
+	list-style-type: none
+	margin: 0
+	padding: 0
+
+	li
+		border: 1px solid blue
+		width: 150px
+		margin-bottom: 5px
+
+		a:link, a:visited
+			color: #fff
+			background-color: blue
+			text-decoration: none
+			padding: 5px
+			display: block
+
+		a:hover, a.active
+			background: #fff url("blue.png") no-repeat 90% 
+			color: blue

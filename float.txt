@@ -29,3 +29,5 @@ margin: 0 190px;
 .clearfix !!!! important
 exemplu:
 http://playcode.io/float3coloane
+
+	

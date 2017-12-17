@@ -8,6 +8,13 @@ HTML
 <sub> - text mic la marginea de jos
 <sup> - text mic la marginea de sus
 
+<q> - citat scurt, text in ghilimele
+<blockquote> - bloc de citat din alta sursa
+<abbr title="New World Translation">NWT</abbr> - nota informativa pentru "NWT"
+<address> - date de contact pentru site, afiseaza text inclinat
+<cite> - defineste titlul unei lucrari, afisare italic
+<bdo> - directia textului
+
 CSS
 text-align: center | left | right | justify | auto - default | start | end |inherit
 font-weight: bold | normal (200, 400, 600, 900)

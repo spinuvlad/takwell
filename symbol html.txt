@@ -1,0 +1,3 @@
+&zwnj; - gol
+simboluri HTML:
+http://www.sabinanore.com/design/html-special-symbols/

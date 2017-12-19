@@ -45,3 +45,16 @@ li:before{
 }
 
 http://html5.by/blog/ol-numbers-css-counter-styling/
+
+HTML
+<ul type="sqare | circle | disc"></ul>
+<ol type="1 | a| A | i | I"></ol>
+
+Liste de definitii:
+<dl>
+	<dt>Tip definitiei</dt>
+	<dd>Definitia insasi a cuvantului din "dt"</dd>
+
+	<dt>Coffe</dt>
+	<dd>O bautura tare pentru a spori capacitatea de lucru</dd>
+</dl>

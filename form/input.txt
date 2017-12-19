@@ -42,3 +42,24 @@ grupare elemente "radio". Elementele "radio" vor fi grupate daca vor avea acelas
 	<br>
 	<input type="radio" id="radio2" name="group">
 	<label for="radio2">radio2</label>
+
+
+form checkbox table css
+Source:		playcode.io/checkbox_table_css
+Public:		checkbox_table_css.playcode.io
+
+form checkbox css
+Source:		playcode.io/form_checkbox_css
+Public:		form_checkbox_css.playcode.io
+
+form select css
+Source:		playcode.io/form_select_css
+Public:		form_select_css.playcode.io
+
+form input css label upload file
+Source:		playcode.io/input1_css
+Public:		input1_css.playcode.io
+
+form input label checkbox radio select option file fieldset legend
+Source:  playcode.io/form
+Public:  form.playcode.io

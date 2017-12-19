@@ -1,0 +1,8 @@
+position: relative	- pentru parinte
+position: absolute | relative - parintii pot primi ambele proprietati
+position: fixed
+top | bottom | left | right: px | %
+z-index: -n ... | 0 | 1 ... n
+
+Daca elementul are "position: relative", putem sa-l miscam prin "top, left", iar celelalte elemente din jur vor crede ca a ramas locului
+

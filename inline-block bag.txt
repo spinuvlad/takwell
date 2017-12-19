@@ -1,0 +1,27 @@
+Folosirea "display:inline-block" adauga bag-ul de margina la fiecare element.
+aceasta prob se poate rezolva: de dat parintelui "font-size: 0"
+
+<div class="line">
+	<div class="block"></div>
+	<div class="block"></div>
+	<div class="block"></div>
+	<div class="block"></div>
+</div>
+
+.line
+	font-size: 0
+
+.block
+	display: inline-block
+	font-size: 12pt
+
+
+
+Source:playcode.io/inline_block
+Public:inline_block.playcode.io
+
+Source:playcode.io/display_inline_block
+Public:display_inline_block.playcode.io
+
+Source:playcode.io/inline_block_maket
+Public:inline_block_maket.playcode.io

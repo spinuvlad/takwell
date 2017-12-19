@@ -164,6 +164,14 @@ Box-Shadow
 Source: 	playcode.io/box_shadow
 Public:		box_shadow.playcode.io
 
+display: inline-block bag
+Source:		playcode.io/inline_block
+Public:		inline_block.playcode.io
+
+machet, maket responsiv
+Source:playcode.io/inline_block_maket
+Public:inline_block_maket.playcode.io
+
 Text-Shadow:
 Source: 	playcode.io/text_shadow
 Public:		text_shadow.playcode.io

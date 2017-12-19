@@ -35,3 +35,10 @@ required				 //Camp obligatoriu pt indeplinire
 autofocus				 //задает автоматический фокус ввода
 autocomplete="on" | "off" // on | off pentru propuneri de completare din partea browserului
 <input type="text" readonly>   //interzice sa scrii in camp. doar citire     
+
+grupare elemente "radio". Elementele "radio" vor fi grupate daca vor avea acelasi atribut "name"
+	<input type="radio" id="radio1" name="group">
+	<label for="radio1">radio1</label> 
+	<br>
+	<input type="radio" id="radio2" name="group">
+	<label for="radio2">radio2</label>

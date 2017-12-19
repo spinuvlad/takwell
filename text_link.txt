@@ -13,7 +13,7 @@ HTML
 <abbr title="New World Translation">NWT</abbr> - nota informativa pentru "NWT"
 <address> - date de contact pentru site, afiseaza text inclinat
 <cite> - defineste titlul unei lucrari, afisare italic
-<bdo> - directia textului
+<bdo dir="ltr"> - directia textului
 
 CSS
 text-align: center | left | right | justify | auto - default | start | end |inherit

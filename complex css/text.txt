@@ -18,6 +18,10 @@ text-align-last:
 			start | end | center | left | right | justify | inherit;
 Свойство text-align-last устанавливает выравнивание последней строки текста: по левому краю, по правому, по центру, по левому и правому краям одновременно.
 
+text-decoration-style: solid | double | dotted | dashed | wavy
+text-decoration-line: underline | none | line-through | overline 
+text-decoration-color: red
+
 white-space:
 			nowrap;				Запрещает тексту переносится на другую строку
 			pre;					текст показывается так, как был набран в редакторе HTML кода.

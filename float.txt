@@ -30,4 +30,9 @@ margin: 0 190px;
 exemplu:
 http://playcode.io/float3coloane
 
-	
+
+
+<div class="clearfix"></div>
+.clearfix{
+	clear: both;
+	}

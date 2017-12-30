@@ -1,0 +1,29 @@
+URL - Uniform Resource Locator - defineste unde se afla ceva pe web
+HTTP (Hypertext Transfer Protocol)
+
+http://domain.com/test/source/image.jpg
+
+http:// - protocol
+
+domain.com - numele adresei gazduite pe server
+
+/test/source/ - calea de directorii
+
+image.jpg - numele sursei
+
+tag-ul "a" contine atribute: 
+"title" -  informatii suplimentare despre link
+"target" - deschide pagina intr-o fereastra noua in browser
+
+title="info despre link"
+target=_blank
+
+***
+
+Accesarea unui tag din acelasi document:
+<h2 id="adresa_noastra">Adresa Noastra</h2>
+<p><a href="#adresa_noastra">Adresa noastra</a> poate fi gasita mai jos</p>
+
+Accesarea unui tag din alt document:
+<h2 id="adresa_noastra">Adresa Noastra</h2>
+<p><a href="folder1/folder2/document.html#adresa_noastra">Adresa noastra</a> poate fi gasita mai jos</p>

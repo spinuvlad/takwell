@@ -1,0 +1,30 @@
+<video srs="" controls>   - tag-ul "controls" va afisa butoanele de redare in player
+
+unele browsere ar putea sa nu suporte careva tipuri de video.
+pentru asta se poate adauga mai multe videouri de formate diferite.
+browserul va trece la urmatorul in cazul in car enu reuseste sa redea.:
+
+<video>
+<source src="video.mp4" type="video/mp4">
+<source srs="video.webm type="video/webm>
+<p>Acest text va fi afisat daca browserul nu va reusi sa deschida nici un format video</p> 
+</video>
+
+atribute pt tagurile audio/video:
+	autoplay - video se lanseaza imediat ce pagina este incarcata
+	loop - videoul se reda din nou cand se termina
+	muted - sunet oprit
+	poster - imagine inainte de redarea videclipului
+
+	subtitrari:
+	<track>
+	suporta fisiere tip *.vtt
+
+	<video>
+<source src="video.mp4" type="video/mp4">
+<source srs="video.webm type="video/webm>
+<track kind="subtitles" src="subtitluri.vtt" srclang="ro">
+<p>Acest text va fi afisat daca browserul nu va reusi sa deschida nici un format video</p> 
+</video>
+
+Online Video&Audio Providers

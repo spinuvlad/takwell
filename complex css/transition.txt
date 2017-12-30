@@ -21,7 +21,7 @@ transition-timing-function:   // indica viteza cu care are loc tranzitia
 transition-delay: 2s     // timp retinere inainte de tranzitie
 -----------------------------
 PRESCURAT:
-transition: background .5s ease 2s //ordinea nu conteaza, conteaza timpul (primul parametru de 																			timp va fi: transition-duration)     
+transition: background .5s ease 2s //ordinea nu conteaza, conteaza timpul (primul parametru de timp va fi: transition-duration)     
 PRESCURTAT COMPLEX:
 transition: widht 1s ease, background 4s ease 1s
 transition: all 1s ease     // pt "all" nu putem scrie parametri complecsi

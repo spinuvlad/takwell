@@ -1,0 +1,13 @@
+formatele in care sunt specificate culorile:
+RGB, HEX, HSL, RGBA, HSLA
+
+HEX: #FF00YT, RRGGBB (red, green, blue)
+color: rgb(255, 0, 0);
+color: rgba(255, 0, 0, 0.55) - indica opacitate, transparenta
+
+color: hsl(0, 25%, 50%) - nuanta, saturatie, luminozitate
+nunata primeste valori 0...120...240 (rosu...verde...albastru)
+saturatie(0%-gri...100%-culoare completa) - intensitatea unei culori
+luminozitate(0%-negru...100%-alba)
+
+color:hsla(0, 25%, 50%, 0.3) - 0.3 - transparenta

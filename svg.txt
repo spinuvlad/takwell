@@ -1,0 +1,11 @@
+SVG (Scalable Vector Graphics)
+<polygon points="200,10 250,190 160,210" - triunghi
+
+<svg width="200" height="200"> 
+	<circle cx = "60"			//rect - patrat; circle - cerc; cx - de la centru x
+					cy = "60"			//de la centru y
+					 r = "50"			//raza cercului
+			stroke = "red"    //culoare margine
+stroke-width = "4"			//latimea marginii
+				 fill= "green"  //culoare de umplere
+</svg>

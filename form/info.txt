@@ -1,0 +1,2 @@
+formularele sun folosite pentru a colecta diverse informații de la vizitatori. Cele mai importante atribute ale tag-ului
+sunt action si method. action menționeaza adresa scriptului (aflat pe server) care va interpreta formularul și method indica metoda folosita de browser pentru transmiterea formularului. Poate lua valorile get și post. get - datele sunt trimise prin adăugarea la adresa indicata de action. Permite trimiterea unor mici cantitați de date. post - datele sunt trimise separat și sunt permise cantitați mari de date. 

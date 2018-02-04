@@ -1,0 +1,6 @@
+fisiere ce trebuie conectate:
+
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<script src="libs/jquery/jquery-3.1.1.min.js"></script>
+<script src="js/common.js"></script>
+<script src="libs/owl/owl.carousel.min.js"></script>

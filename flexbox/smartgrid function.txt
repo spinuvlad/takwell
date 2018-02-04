@@ -1,0 +1,95 @@
+    Inainte de fiecare proiect revezi aceste setari
+    columns: 24, /* number of grid columns */
+    offset: "10px", /* gutter width px || % */
+    container: {
+        maxWidth: '960px', /* max-width în very large screen */
+       //fields: '30px' /* side fields */
+
+in smartgrid.js se poate da offset: "1rem" sau "1.2%"
+in rem se da mai mult subtitlurile, titlurile.
+
+offset se calculeaza offset in pixel/wrapper: 10px/960px*100 = 1,02%
++reset();
+
+breakPoints:
+$break_lg: 1100px
+$break_md: 960px
+$break_sm: 780px
+$break_xs: 560px
+$break_xxs: 480px
+
+.wrapper
+	+wrapper()
+  
+PARINTE
++row-flex()		--> display: flex; flex-wrap: wrap;
++row-float()  --> elemente float + clearfix
+
+COPIL
+	+col-float()
+
++md(color, red)
+
++md-block 	--> schimbare de stiluri la ecran "md"
+	color: red
+	paddind: 20px
+	margin: 10px
+
++justify-content-md(center)
+
+COPIL
+	+col() / +col-padding()	--> obligatoriu
+	+col-6()	--> ocupa cate 8 coloane
+	+col-md-8() -->8 coloane pt ecran de 960px
+	+col-xs-20() --> 20 coloane pt ecran mic
+
+	+col-padding()  -->blocurile se ating / in loc de +col()
+
+	+offset-md(1)	//1 - margin de 1 coloane pt ecrane md
+
+	+offset-left(1)
+	+offset-right(1)
+
+	+offset-left-md(1)
+
+	+offset-left-sm(0)	//anularea offset
+
+	+offset-padding(1) 
+---------------------------- +col-padding()
+.parinte
+	+row-flex()
+
+	.copii
+		.col-padding()
+
+	.copil_left
+		+col-8()
+		padding-left: 0
+		margin-left: $offset_one_size
+
+	.copil_right
+		+col-16()
+		padding-right: 0
+		margin-right: $offset_one_size
+----------------------------BEM (block element modofocator)
+tuturor elementelor li se da clase: class="block__element"
+in sass:
+.block
+	&__element
+
+
+
++justify-content-md(center)
+        "justify-content",
+        "align-items",
+        "align-content",
+        "align-self",
+        "order",
+        "flex",
+        "flex-grow",
+        "flex-shrink",
+        "flex-basis",
+        "flex-direction",
+        "flex-wrap",
+        "flex-flow",
+        "float"

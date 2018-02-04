@@ -1,0 +1,87 @@
+ЭТО НАДО ПРОЙТИ РОВНО ОДИН РАЗ НА ОДНОМ КОМПЕ!!!
+
+1. установить node.js
+2. сделать папку E:/folder
+3. открыть node.js command prompt
+4. npm ls -g --depth=0  // глобально ничего не установлено
+5. npm i -g gulp-cli // mac || linux -> sudo npm i -g gulp-cli
+6. npm ls -g --depth=0  // gulp-cli появился в списке
+
+cand instalezi n modul:
+npm 
+------------------------------------------------------------------------
+
+ПРИ КАЖДОМ НОВОМ ПРОЕКТЕ
+
+1. cd /d E:/folder
+2. скопировать в папку проект gulpfile.js и package.json
+3. npm up
+4. создать в E:/folder папку src - здесь лежит наша вёрстка
+5. настроите пути до файлов в gulpfile.js
+
+
+-------------------------------------------------------------------------
+
+ПРИ НАЧАЛЕ РАБОТЫ
+
+1. gulp watch
+2. cntr + c -> y для завершения
+
+
+
+------------
+gult watch
+gulp pack - formeaza pachetul "min"
+____________________________________________CMD
+cls		- clear screen
+cd..		- back
+cd \		- disc root
+cd \ my_folder	- expres go to folder
+dir		- folder content
+dir/b		- folder content / no detail
+mkdir		- create folder
+md 		- create folder
+rd 		- delete folder
+xcopy c:\folder1 d:\folder2
+move stats.doc, morestats.doc c:\statistics
+rename folder new_folder
+rename <oldname.exe> <newname.exe>
+d:		- go to disk d
+cd /d DISC:/folder	- go to folder project
+F7   sau doskey /history	 - deschide comenzile executate in CMD
+
+attrib +s +h d:/name_folder	- hide folder
+attrib -s -h d:/name_folder	- unhide folder
+--------------------------------------------------
+file:
+echo >test.txt	- create file *.txt
+echo Hello! >foo.txt
+del test.txt
+more test.txt	- show file content
+start test.txt
+---------------------------------------------------
+
+
+control fonts	- fonts
+dxdiag		- sistem information
+
+
+shutdown -s	- Shut Down
+shutdown -r	- Restart
+shutdown -l	- Logoff
+shutdown -s -t 120	- Shut Down time 120sec
+shutdown -s -t 500 -c “My message.”
+
+appwiz.cpl	- Add / Remove Programs
+
+driverquery	- show all driver
+
+
+
+netsh wlan set hostednetwork mode=allow ssid=Hotspotname key=password
+netsh wlan start hostednetwork		- host internet from comp
+netsh wlan stop hostednetwork		- stop host
+
+
+
+
